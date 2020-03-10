@@ -9,7 +9,7 @@ html, body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid tomato;
+    /*border: 5px solid tomato;*/
     background-size: cover;
 }
 
@@ -28,15 +28,33 @@ html, body{
 }
 #name{
     font-size: 3rem;
+    color: #ff7961;
 }
 .normalHeading{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 100;
     margin-bottom: 0;
 }
 .textPart p{
     font-size: 140%;
     line-height: 160%;
+}
+.textPart a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 120px;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+
+    transition: 0.5s;
+    background-image: linear-gradient(to right,#ff3613 0%, #ff8a75 51%, #ff3613 100%);
+    background-size: 200% auto;
+}
+.textPart a:hover{
+    background-position: right center;
 }
 .pi{
     width: 70%;
@@ -52,6 +70,6 @@ html, body{
     background-image: url(images/header-bg.png);
 }
 
-.pad{
-    padding-left: 15%;
+.mg{
+    margin-left: 15%;
 }
