@@ -24,7 +24,6 @@ html, body{
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
 }
 #name{
     font-size: 3rem;
@@ -36,8 +35,9 @@ html, body{
     margin-bottom: 0;
 }
 .textPart p{
-    font-size: 140%;
+    font-size: 120%;
     line-height: 160%;
+    color: #898989;
 }
 .textPart a{
     text-decoration: none;
@@ -45,24 +45,35 @@ html, body{
     text-transform: uppercase;
     font-size: 1.2rem;
     text-align: center;
-    width: 120px;
+    width: 150px;
     padding: 1rem 1rem;
     border-radius: 50px;
 
     transition: 0.5s;
-    background-image: linear-gradient(to right,#ff3613 0%, #ff8a75 51%, #ff3613 100%);
+    background-image: linear-gradient(to right,#ff4726 0%, #ff8a75 51%, #ff4726 100%);
     background-size: 200% auto;
 }
 .textPart a:hover{
     background-position: right center;
 }
 .pi{
-    width: 70%;
+    width: 80%;
 }
 
 .biography{
     background-image: url(images/biography-bg.png);
+    flex-direction: column;
+    align-items: flex-end;
 }
+.imagePart2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pid{
+    width: 65%;
+}
+
 .latest-work{
     background-image: url(images/latest-work-bg.png);
 }
@@ -70,6 +81,9 @@ html, body{
     background-image: url(images/header-bg.png);
 }
 
-.mg{
-    margin-left: 15%;
+.mgl{
+    margin-left: 20%;
+}
+.mgr{
+    margin-right: 20%;
 }
