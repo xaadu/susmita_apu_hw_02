@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -8,11 +9,39 @@ html, body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    border: 5px solid tomato;
+    background-size: cover;
 }
 
 .header{
     background-image: url(images/header-bg.png);
+    flex-direction: column;
 }
+.sub-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#name{
+    font-size: 3rem;
+}
+.normalHeading{
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.textPart p{
+    font-size: 140%;
+    line-height: 160%;
+}
+.pi{
+    width: 70%;
+}
+
 .biography{
     background-image: url(images/biography-bg.png);
 }
@@ -21,4 +50,8 @@ html, body{
 }
 .footer{
     background-image: url(images/header-bg.png);
+}
+
+.pad{
+    padding-left: 15%;
 }
