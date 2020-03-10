@@ -1,0 +1,24 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-image: url(images/header-bg.png);
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+}
+.footer{
+    background-image: url(images/header-bg.png);
+}
